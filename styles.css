@@ -1,0 +1,42 @@
+html {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+h1 {
+  background-color: #800020;
+  color: #f0f0f0;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.js-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #800020;
+  margin-right: 10px;
+  width: 300px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #f0f0f0;
+  background-color: #800020;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #333;
+}
